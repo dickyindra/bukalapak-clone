@@ -15,5 +15,8 @@ Bukalapak App:
 1. Ketik npm install pada folder bukalapak-app
 2. Lalu jalankan yarn start pada cli
 
+# Screenshot
+<img src="https://preview.ibb.co/kEBmL8/New_Project.gif"/>
+
 # Video
 https://youtu.be/pvySeI_kx7s
