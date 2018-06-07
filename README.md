@@ -1,22 +1,57 @@
-# bukalapak-clone
-Aplikasi Bukalapak Clone adalah sebuah aplikasi kloningan dari Bukalapak yang dibuat menggunakan React Native sebagai bahan media pembelajaran membuat aplikasi mobile.
+# Bukalapak Clone
 
-# Fitur
-1. Lihat Daftar Produk
-2. Lihat Detail Produk
-2. Keranjang Belanja
+Bukalapak Clone is a clone app of https://bukalapak.com. It use React Native as the frontend and Express as the Backend. I am working this app at https://dumbways.id and https://arkademy.com Bootcamp class. Feels free to contribute to make this app better.
 
-# Cara Install
-Bukalapak API:
-1. Ketik npm install pada folder bukalapak-api
-2. Lalu jalankan nodemon index pada cli
+![gif](https://preview.ibb.co/kEBmL8/New_Project.gif)
 
-Bukalapak App:
-1. Ketik npm install pada folder bukalapak-app
-2. Lalu jalankan yarn start pada cli
+## Feature
 
-# Screenshot
-<img src="https://preview.ibb.co/kEBmL8/New_Project.gif"/>
+1. Products List
+2. Product Detail
+3. Cart
 
-# Video
-https://youtu.be/pvySeI_kx7s
+## Technology
+
+1. React Native as Frontend
+2. Express as Backend
+
+## Installation 
+
+Open terminal, and clone this project
+
+```
+$ git clone https://github.com/dickyindra/bukalapak-clone
+```
+
+**API:**
+
+```
+$ cd bukalapak-clone/bukalapak-api
+$ npm install 
+$ nodemon index
+```
+
+**Mobile Frontend (React Native):**
+
+Make sure you already installed React Native and have emulator or real device running. If not visit this page https://facebook.github.io/react-native/docs/getting-started.html
+```
+$ cd bukalapak-clone/bukalapak-app
+$ npm install
+$ npm start
+```
+
+## Screenshot
+![screenshots1](https://preview.ibb.co/kEBmL8/New_Project.gif)
+![screenshots2](https://preview.ibb.co/kEBmL8/New_Project.gif)
+
+## Video
+[![Bukalapak Clone](https://www.youtube.com/yt/about/media/images/brand-resources/icons/YouTube-icon-our_icon.png)](https://www.youtube.com/watch?v=IJNR2EpS0jw)
+
+## Powered by
+
+![https://dumbways.id](https://avatars2.githubusercontent.com/u/34464790?s=200&v=4)
+
+![https://arkademy.com](http://www.arkademy.com/asset/images/ico_logo.png)
+
+Author: Dicky Chandra
+
