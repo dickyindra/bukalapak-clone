@@ -2,7 +2,7 @@
 
 Bukalapak Clone is a clone app of https://bukalapak.com. It use React Native as the frontend and Express as the Backend. I am working this app at https://dumbways.id and https://arkademy.com Bootcamp class. Feels free to contribute to make this app better.
 
-![gif](https://preview.ibb.co/kEBmL8/New_Project.gif)
+![gif](https://github.com/dickyindra/bukalapak-clone/blob/master/New-Project.gif)
 
 ## Feature
 
@@ -41,11 +41,14 @@ $ npm start
 ```
 
 ## Screenshot
-![screenshots1](https://preview.ibb.co/kEBmL8/New_Project.gif)
-![screenshots2](https://preview.ibb.co/kEBmL8/New_Project.gif)
+.                          |  .                        |  .                        |  .  
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+![screenshots1](https://image.ibb.co/dnryiT/Screenshot_2018_06_07_10_47_51.png)  |  ![screenshots2](https://image.ibb.co/b8Afxo/Screenshot_2018_06_07_10_48_01.png)  |  ![screenshots3](https://image.ibb.co/bKypq8/Screenshot_2018_06_07_10_48_16.png)  |  ![screenshots4](https://image.ibb.co/mEsFV8/Screenshot_2018_06_07_10_48_30.png)
+![screenshots5](https://preview.ibb.co/ht47co/Screenshot_2018_06_07_10_48_39.png)  |  ![screenshots6](https://preview.ibb.co/mH24OT/Screenshot_2018_06_07_10_48_52.png)  |  ![screenshots7](https://preview.ibb.co/mveUq8/Screenshot_2018_06_07_10_49_17.png)  |  ![screenshots8](https://image.ibb.co/j7PJiT/Screenshot_2018_06_07_10_49_38.png)
+![screenshots9](https://image.ibb.co/mpFPOT/Screenshot_2018_06_07_10_49_53.png)  |  ![screenshots10](https://image.ibb.co/d74vV8/Screenshot_2018_06_07_10_50_02.png)  |  ![screenshots11](https://image.ibb.co/bC6nco/Screenshot_2018_06_07_10_50_09.png)  |  ![screenshots12](https://image.ibb.co/ewStHo/Screenshot_2018_06_07_10_50_19.png)
 
 ## Video
-[![Bukalapak Clone](https://www.youtube.com/yt/about/media/images/brand-resources/icons/YouTube-icon-our_icon.png)](https://www.youtube.com/watch?v=IJNR2EpS0jw)
+[![Bukalapak Clone](https://img.youtube.com/vi/pvySeI_kx7s/0.jpg)](https://www.youtube.com/watch?v=pvySeI_kx7s)
 
 ## Powered by
 
@@ -53,5 +56,5 @@ $ npm start
 
 ![https://arkademy.com](http://www.arkademy.com/asset/images/ico_logo.png)
 
-Author: Dicky Chandra
+Author: Dicky Indra Asmara
 
