@@ -28,6 +28,10 @@ const ProductsSchema = new Schema({
     type: Number,
     required: true
   },
+  category: {
+    type: String,
+    required: true
+  },
   category_id: {
     type: Number,
     required: true
