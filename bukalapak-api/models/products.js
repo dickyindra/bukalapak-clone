@@ -1,7 +1,17 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
+// Deal Info Schema
+const DealInfoSchema = new Schema({
+  _id: false,
+  original_price: Number,
+  discount_price: Number,
+  discount_percentage: Number
+})
+
+// Rating Schema
 const RatingSchema = new Schema({
+  _id: false,
   average_rate: {
     type: Number,
     default: 0
@@ -12,24 +22,29 @@ const RatingSchema = new Schema({
   }
 })
 
-const DealInfoSchema = new Schema({
-  original_price: Number
-})
-
+// Main Schema (Products)
 const ProductsSchema = new Schema({
   deal_info: {
     type: DealInfoSchema,
     default: []
-  },
-  name: {
-    type: String,
-    required: true
   },
   price: {
     type: Number,
     required: true
   },
   category: {
+    type: String,
+    required: true
+  },
+  category_id: {
+    type: Number,
+    required: true
+  },
+  category_structure: {
+    type: Array,
+    required: true
+  },
+  seller_username: {
     type: String,
     required: true
   },
@@ -41,9 +56,13 @@ const ProductsSchema = new Schema({
     type: String,
     required: true
   },
-  seller_level: {
+  seller_avatar: {
     type: String,
-    default: undefined
+    required: true
+  },
+  seller_level_badge_url: {
+    type: String,
+    default: true
   },
   seller_delivery_time: {
     type: String,
@@ -61,7 +80,23 @@ const ProductsSchema = new Schema({
     type: String,
     default: undefined
   },
+  sold_count: {
+    type: Number,
+    default: 0
+  },
+  id: {
+    type: String,
+    required: true
+  },
+  name: {
+    type: String,
+    required: true
+  },
   city: {
+    type: String,
+    required: true
+  },
+  province: {
     type: String,
     required: true
   },
@@ -69,7 +104,14 @@ const ProductsSchema = new Schema({
     type: Number,
     required: true
   },
-  images: [],
+  images: {
+    type: Array,
+    required: true
+  },
+  small_images: {
+    type: Array,
+    required: true
+  },
   desc: {
     type: String,
     required: true
