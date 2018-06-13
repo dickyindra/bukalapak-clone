@@ -3,11 +3,15 @@ const Schema = mongoose.Schema;
 
 // Deal Info Schema
 const DealInfoSchema = new Schema({
-  original_price: Number
+  _id: false,
+  original_price: Number,
+  discount_price: Number,
+  discount_percentage: Number
 })
 
 // Rating Schema
 const RatingSchema = new Schema({
+  _id: false,
   average_rate: {
     type: Number,
     default: 0
