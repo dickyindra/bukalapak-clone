@@ -3,7 +3,7 @@ const Schema = mongoose.Schema;
 
 const CartsSchema = new Schema({
   product_id: {
-    type: ObjectId,
+    type: Number,
     required: true
   },
   qty: {
