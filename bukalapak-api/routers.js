@@ -37,6 +37,15 @@ router.get('/products/category/:category', function(req, res, next) {
     .catch(next)
 });
 
+router.get('/products/category/:category/show/:show', function(req, res, next) {
+  Products.find({category: req.params.category})
+    .limit(Number(req.params.show))
+    .then(function(product) {
+      res.send(product);
+    })
+    .catch(next)
+});
+
 router.post('/products', function(req, res, next) {
   const {name, role} = req.body;
 
