@@ -19,6 +19,16 @@ router.get('/products/:id', function(req, res, next) {
     .catch(next)
 });
 
+router.get('/products/page/:page/show/:show', function(req, res, next) {
+  Products.find()
+    .skip(req.params.show*(req.params.page-1))
+    .limit(Number(req.params.show))
+    .then(function(product) {
+      res.send(product)
+    })
+    .catch(next)
+})
+
 router.get('/products/category/:category', function(req, res, next) {
   Products.find({category: req.params.category})
     .then(function(product) {
