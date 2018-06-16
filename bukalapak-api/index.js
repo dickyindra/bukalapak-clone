@@ -16,5 +16,5 @@ app.use(function(err, req, res, next) {
 });
 
 app.listen(process.env.port || 5000, function() {
-  console.log('express app now listening requests')
+  console.log('Bukalapak API now listening requests')
 });
